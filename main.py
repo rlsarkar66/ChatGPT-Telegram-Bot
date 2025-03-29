@@ -61,7 +61,7 @@ def main() -> None:
     persistence = PicklePersistence(filepath='conversationbot')
 
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token(config["BOT"]["TOKEN"]).persistence(persistence).build()
+    application = Application.builder().token(config["BOT"]["7728618006:AAFYiUl-xlQmGqlmDvG-L5jRa9mq5eFrpfQ"]).persistence(persistence).build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
